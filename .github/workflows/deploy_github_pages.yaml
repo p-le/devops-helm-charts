@@ -1,4 +1,4 @@
-name: Publish GatsbyJS
+name: Publish Charts
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
