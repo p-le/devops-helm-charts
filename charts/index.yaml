@@ -3,12 +3,12 @@ entries:
   todoapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-22T03:49:18.86429766Z"
+    created: "2022-03-22T04:27:47.4799855Z"
     description: A Helm chart for TodoApp Kubernetes on GKE
     digest: 4dc7098a7812055b1e1843fa55f7582edd7a71530e0f2d575aa7fea9b5895ffc
     name: todoapp
     type: application
     urls:
-    - https://p-le.github.io/devops-helm-charts/todoapp-1.0.0.tgz
+    - https://fullstackage.phu-le.dev/devops-helm-charts/todoapp-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-22T03:49:18.863052614Z"
+generated: "2022-03-22T04:27:47.479304647Z"
