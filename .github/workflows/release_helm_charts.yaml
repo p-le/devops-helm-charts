@@ -27,4 +27,4 @@ jobs:
       - name: Index
         run: |
           mv todoapp-*.tgz charts
-          helm repo index devops-charts --url https://p-le.github.io/devops-helm-charts
+          helm repo index charts --url https://p-le.github.io/devops-helm-charts
