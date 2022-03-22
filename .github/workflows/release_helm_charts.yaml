@@ -7,7 +7,7 @@ jobs:
   index:
     runs-on: ubuntu-latest
     env:
-      GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -41,3 +41,4 @@ jobs:
           labels: |
             automated pr
           draft: false
+          
