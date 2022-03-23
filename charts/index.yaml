@@ -3,7 +3,29 @@ entries:
   todoapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-23T02:58:05.385708367Z"
+    created: "2022-03-23T02:59:47.972846462Z"
+    description: A Helm chart for TodoApp Stack
+    digest: b0367f329e9a2484f1451b66ba427a49634ec5b39e2c5e4a0a0ce0434566bd3a
+    keywords:
+    - todoapp
+    - fullstackage
+    maintainers:
+    - email: phu.le.dev@gmail.com
+      name: Phu Le
+      url: https://fullstackage.phu-le.dev/
+    name: todoapp
+    sources:
+    - https://github.com/p-le/devops-todoapp-infra-v2
+    - https://github.com/p-le/devops-todoapp-backend
+    - https://github.com/p-le/devops-todoapp-frontend
+    - https://github.com/p-le/devops-todoapp-manifests
+    type: application
+    urls:
+    - https://fullstackage.phu-le.dev/devops-helm-charts/todoapp-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-23T02:59:47.972358973Z"
     description: A Helm chart for TodoApp Stack
     digest: f0ebf43d127a77294ea982687f6b4b59711f735a102e920bd8be210bddd171fe
     keywords:
@@ -25,7 +47,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-23T02:58:05.385304862Z"
+    created: "2022-03-23T02:59:47.971737687Z"
     description: A Helm chart for TodoApp Stack
     digest: 81c6171b89cfc312822ed5931e1af8303907c1146835203232c5277942e0c556
     keywords:
@@ -47,7 +69,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-23T02:58:05.384903457Z"
+    created: "2022-03-23T02:59:47.9712076Z"
     description: A Helm chart for TodoApp Kubernetes on GKE
     digest: 5c1251f9a0d346452cb6ce9cd17ef51840aa8a0e2d7830b37bc26d05456bf57f
     name: todoapp
@@ -57,7 +79,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-23T02:58:05.384487053Z"
+    created: "2022-03-23T02:59:47.970638113Z"
     description: A Helm chart for TodoApp Kubernetes on GKE
     digest: 4dc7098a7812055b1e1843fa55f7582edd7a71530e0f2d575aa7fea9b5895ffc
     name: todoapp
@@ -65,4 +87,4 @@ entries:
     urls:
     - https://fullstackage.phu-le.dev/devops-helm-charts/todoapp-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-23T02:58:05.383211638Z"
+generated: "2022-03-23T02:59:47.969699634Z"
